@@ -4,7 +4,7 @@ This project is based on data from Kaggle competition. I used it to test perform
 
 The project consists of several notebooks.
 
-In "DataAnalysis" I performed data visualisation, data cleaning and some data transformation. It allowed me to make some observations regarding correlation between independent variables and dependent variable. The features included numerical and categorical data of each of spaceship passengers. The target was boolean variable, meanning whether the passenger was transported to another dimension after a collision. Target variable was well balanced, so accuracy metric was used in models valuation.
+In "DataAnalysis" I performed data visualisation, data cleaning and some data transformation. It allowed me to make some observations regarding correlation between independent variables and dependent variable. The features included numerical and categorical data of each of spaceship passengers. The target was boolean variable, meaning whether the passenger was transported to another dimension after a collision. Target variable was well balanced, so accuracy metric was used in models valuation.
 
 In "FeaturesEngineering" I included functions preparing datasets for models and predictions. It contains in particular functions performing features extraction for three metods of categorical data encoding: one hot encoding (OHE), target encoding (TE) and leave one out encoding (LOOE). Functions from this notebook were imported to next ones.
 
@@ -16,4 +16,4 @@ Notebooks starting with word "Model_" have the same structure. Each one imports 
 
 Notebook "Model_Pytorch" is a bit different. I implemented there a LogisticRegression model using Pytorch and used k-fold technique for training and testing model.
 
-"Models_Summary" contains comparison of all results with observations and conclusions.
+"Models_Summary" contains comparison of all results, with my observations and conclusions.
